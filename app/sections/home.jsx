@@ -8,8 +8,8 @@ export function HomePage() {
 			<Index />
 			<div className="bg-white z-1 relative">
 				<img
-					className="bg-white hidden lg:block absolute w-[30rem] xl:w-[40rem] 2xl:w-[50rem] bottom-[-2px] z-0"
-					src="/Pictures/logoWelcom.JPG"
+					className="bg-white hidden lg:block absolute w-[30rem] xl:w-[40rem] 2xl:w-[50rem] bottom-0 z-0"
+					src="/Pictures/alisterWelcome.png"
 				/>{" "}
 				<Welcome />
 			</div>

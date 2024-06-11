@@ -19,8 +19,7 @@ export function WhiteCut() {
 						</svg>
 					</div>
 					<div className="stat-title">Projets</div>
-					<div className="stat-value text-primary">2000+</div>
-					<div className="stat-desc">21% de plus que ...</div>
+					<div className="stat-value text-primary">2317+</div>
 				</div>
 
 				<div className="stat">
@@ -40,8 +39,7 @@ export function WhiteCut() {
 						</svg>
 					</div>
 					<div className="stat-title">Clients satisfaits</div>
-					<div className="stat-value text-slate-300">560 +</div>
-					<div className="stat-desc">21% de plus que ... </div>
+					<div className="stat-value text-slate-300">1130 +</div>
 				</div>
 
 				<div className="stat">

@@ -5,13 +5,13 @@ export function Achievements() {
 	return (
 		<div
 			id="achievements"
-			className="bg-repeat min-h-screen bg-slate-200"
+			className="bg-cover min-h-screen bg-white "
 			style={{
-				backgroundImage: "url('/Pictures/logoWhite.png')",
+				backgroundImage: "url('/Pictures/logoMosaique.png')",
 			}}
 		>
 			<div className="container mx-auto flex flex-col">
-				<h1 className="font-organic mb-5 pt-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[9rem] font-bold dark:font-outline-2-secondary font-outline-2-primary self-end			">
+				<h1 className="font-organic mb-5 pt-5 text-4xl mr-5 uppercase sm:text-5xl md:text-6xl text-transparent lg:text-[9rem] font-bold dark:font-outline-2-secondary font-outline-2-primary self-end			">
 					{" "}
 					Réalisations{" "}
 				</h1>

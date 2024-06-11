@@ -61,7 +61,7 @@ export function ContactUs() {
 						<div className="text-white lg:w-1/2 lg:mx-6">
 							<h1
 								id="contacts"
-								className="font-organic mb-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[6rem] font-bold dark:font-outline-2-primary font-outline-2-secondary			"
+								className="font-organic uppercase mb-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[4.5rem] font-bold dark:font-outline-2-primary font-outline-2-secondary			"
 							>
 								contactez-nous{" "}
 							</h1>

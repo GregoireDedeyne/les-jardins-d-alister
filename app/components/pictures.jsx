@@ -13,7 +13,9 @@ export function Pictures() {
 const SkeletonOne = () => {
 	return (
 		<div>
-			<p className="font-bold text-4xl text-white">House in the woods</p>
+			<p className="font-bold text-4xl text-white">
+				Réalisation d'une cloture
+			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				A serene and tranquil retreat, this house in the woods offers a
@@ -26,9 +28,7 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
 	return (
 		<div>
-			<p className="font-bold text-4xl text-white">
-				House above the clouds
-			</p>
+			<p className="font-bold text-4xl text-white">Pose d'une haie</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				Perched high above the world, this house offers breathtaking
@@ -41,7 +41,9 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
 	return (
 		<div>
-			<p className="font-bold text-4xl text-white">Greens all over</p>
+			<p className="font-bold text-4xl text-white">
+				Réalisation d'une bordure
+			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				A house surrounded by greenery and nature&apos;s beauty.

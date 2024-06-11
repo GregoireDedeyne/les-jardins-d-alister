@@ -7,6 +7,7 @@ import { Teams } from "./sections/teams";
 import { FeedBack } from "./container/feedBack";
 import { Contacts } from "./sections/contact";
 import { NavBar } from "./components/navBar";
+import { Footer } from "./components/footer";
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 			<Teams />
 			<FeedBack />
 			<Contacts />
+			<Footer />
 		</main>
 	);
 }

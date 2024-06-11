@@ -10,9 +10,9 @@ const content = [
 		content: (
 			<div className="h-full w-full  flex items-center justify-center text-white">
 				<img
-					src="/Pictures/parterre.jpg"
-					width={300}
-					height={300}
+					src="/Pictures/devis.png"
+					width={500}
+					height={500}
 					className="h-full w-full object-cover"
 					alt="linear board demo"
 				/>
@@ -26,9 +26,9 @@ const content = [
 		content: (
 			<div className="h-full w-full  flex items-center justify-center text-white">
 				<img
-					src="/Pictures/haie.jpg"
-					width={300}
-					height={300}
+					src="/Pictures/conceptionPerso.png"
+					width={500}
+					height={500}
 					className="h-full w-full object-cover"
 					alt="linear board demo"
 				/>
@@ -42,9 +42,9 @@ const content = [
 		content: (
 			<div className="h-full w-full  flex items-center justify-center text-white">
 				<Image
-					src="/Pictures/index.jpg"
-					width={300}
-					height={300}
+					src="/Pictures/miseEnOeuvre.png"
+					width={500}
+					height={500}
 					className="h-full w-full object-cover"
 					alt="linear board demo"
 				/>
@@ -58,9 +58,9 @@ const content = [
 		content: (
 			<div className="h-full w-full  flex items-center justify-center text-white">
 				<Image
-					src="/Pictures/bordure.jpg"
-					width={300}
-					height={300}
+					src="/Pictures/suiviPerso.png"
+					width={500}
+					height={500}
 					className="h-full w-full object-cover"
 					alt="linear board demo"
 				/>

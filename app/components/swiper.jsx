@@ -27,54 +27,68 @@ export default function Swipper() {
 				}}
 				navigation={true}
 				modules={[Autoplay, Pagination, Navigation]}
-				className="mySwiper h-[47.5rem] flex"
+				className="h-[30rem] lg:h-[40rem] flex z-50"
 			>
-				<SwiperSlide className="bg-[url('https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex flex-col">
+				<SwiperSlide className="flex flex-col">
 					<SwiperSlider
 						text={"Directeur opérationnel"}
 						name={"Martin"}
 						url={"/Pictures/Martin.png"}
 					/>
 				</SwiperSlide>
-				<SwiperSlide className="bg-[url('https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex flex-col">
+				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
 						text={"Directeur"}
 						name={"Alister"}
 						url={"/Pictures/AlisterP.png"}
 					/>
 				</SwiperSlide>
-				<SwiperSlide className="bg-[url('https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex flex-col">
+				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
 						text={"Directeur financier"}
 						name={"Anthony"}
 						url={"/Pictures/18.png"}
 					/>
 				</SwiperSlide>
-				<SwiperSlide className="bg-[url('https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex flex-col">
+				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
-						text={"Directeur opérationnel"}
-						name={"Martin"}
+						text={"Machiniste et expert maçonnerie"}
+						name={"Anthony"}
 						url={"/Pictures/19.png"}
 					/>
 				</SwiperSlide>
-				<SwiperSlide className="bg-[url('https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex flex-col">
+				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
 						text={"Assistante de direction"}
 						name={"Estelle"}
 						url={"/Pictures/20.png"}
 					/>
 				</SwiperSlide>
-				<SwiperSlide className="bg-[url('https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex flex-col">
+				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
-						text={"Directeur opérationnel"}
-						name={"Martin"}
+						text={"Chef d’équipe "}
+						name={"Stani"}
 						url={"/Pictures/22.png"}
 					/>
 				</SwiperSlide>
-				<SwiperSlide className="bg-[url('https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex flex-col">
+				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
-						text={"Directeur opérationnel"}
-						name={"Martin"}
+						text={"Horticulteur"}
+						name={"George"}
+						url={"/Pictures/23.png"}
+					/>
+				</SwiperSlide>
+				<SwiperSlide className=" flex flex-col">
+					<SwiperSlider
+						text={"Rémy"}
+						name={"Menuisier"}
+						url={"/Pictures/23.png"}
+					/>
+				</SwiperSlide>
+				<SwiperSlide className=" flex flex-col">
+					<SwiperSlider
+						text={"Benjamin"}
+						name={"Jardinier"}
 						url={"/Pictures/23.png"}
 					/>
 				</SwiperSlide>

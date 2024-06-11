@@ -2,7 +2,7 @@ import { NavIcon } from "./navIcon";
 
 export function NavBar() {
 	return (
-		<div className="container mx-auto pt-24">
+		<div className="container mx-auto pt-16">
 			<div className="navbar bg-transparent">
 				<div className="navbar-start">
 					<ul className="hidden lg:menu lg:menu-horizontal px-1">
@@ -17,14 +17,14 @@ export function NavBar() {
 							<NavIcon
 								url="/Pictures/Services.png"
 								text={"Services"}
-								link={"#Pictures"}
+								link={"#achievements"}
 							/>
 						</li>
 						<li>
 							<NavIcon
 								url="/Pictures/Photos.png"
 								text={"Photos"}
-								link={"#achievements"}
+								link={"#Pictures"}
 							/>
 						</li>
 						<li>
@@ -46,7 +46,7 @@ export function NavBar() {
 						<div
 							tabIndex={0}
 							role="button"
-							className="btn btn-ghost lg:hidden"
+							className="btn text-white btn-ghost lg:hidden"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
