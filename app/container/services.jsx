@@ -35,7 +35,7 @@ export function Services() {
 						</span>{" "}
 					</p>{" "}
 				</div>
-				<div className="h-screen py-20 w-full">
+				<div className="h-screen w-full">
 					<LayoutGridServices cards={cards} />
 				</div>
 			</div>

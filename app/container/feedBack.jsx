@@ -1,5 +1,5 @@
 import { CardFeedBack } from "../components/cardFeedBack";
-
+import { RangeSlider } from "../components/rangeSlider";
 export function FeedBack() {
 	return (
 		<div
@@ -20,13 +20,16 @@ export function FeedBack() {
 					services. Voici ce que certains de nos clients disent de
 					leur expérience avec Les jardins d'Alister.{" "}
 				</p>
-				<div className="flex ">
+				<div className="flex flex-col lg:flex-row">
 					{" "}
-					<div className="w-1/2">
+					<div className="  lg:w-1/2">
 						{" "}
 						<CardFeedBack />{" "}
 					</div>{" "}
-					<div className="w-1/2"> </div>{" "}
+					<div className="lg:w-1/2 md:h-[28rem] lg:h-[35rem] flex">
+						{" "}
+						<RangeSlider />{" "}
+					</div>{" "}
 				</div>
 			</div>
 		</div>
