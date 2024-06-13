@@ -6,7 +6,7 @@ export function Services() {
 	return (
 		<div
 			id="services"
-			className="bg-repeat min-h-screen bg-white"
+			className="hidden md:block bg-repeat min-h-screen bg-white"
 			style={{
 				backgroundImage: "url('/Pictures/logoMosaique.png')",
 			}}

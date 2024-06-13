@@ -17,9 +17,7 @@ export default function Home() {
 			<div className=" md:hidden">
 				<ServicesSmall />
 			</div>
-			<div className="hidden md:flex">
-				<Services />
-			</div>
+			<Services />
 			<Steps />
 			<Achievements />
 			<Teams />
