@@ -8,12 +8,18 @@ import { FeedBack } from "./container/feedBack";
 import { Contacts } from "./sections/contact";
 import { NavBar } from "./components/navBar";
 import { Footer } from "./components/footer";
+import { ServicesSmall } from "./container/servicesSmall";
 
 export default function Home() {
 	return (
 		<main className="">
 			<HomePage />
-			<Services />
+			<div className=" md:hidden">
+				<ServicesSmall />
+			</div>
+			<div className="hidden md:flex">
+				<Services />
+			</div>
 			<Steps />
 			<Achievements />
 			<Teams />
