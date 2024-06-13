@@ -24,9 +24,9 @@ export function Welcome() {
 					{" "}
 					Notre mission est de transformer vos rêves en réalité. Que
 					vous souhaitiez un jardin privé, un parc d&apos;entreprise
-					ou l&apos;embellissement d'un espace public, notre équipe de
-					professionnels expérimentés est là pour vous accompagner à
-					chaque étape.{" "}
+					ou l&apos;embellissement d&apos;un espace public, notre
+					équipe de professionnels expérimentés est là pour vous
+					accompagner à chaque étape.{" "}
 				</p>{" "}
 				<p className="mt-24 text-2xl"> Alister Hennart</p>
 				<p className="my-2 ">

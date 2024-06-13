@@ -136,7 +136,7 @@ const SkeletonSeven = () => {
 	return (
 		<div>
 			<p className="font-bold text-4xl text-white">
-				Plantation et palissade d'arbres
+				Plantation et palissade d&apos;arbres
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">

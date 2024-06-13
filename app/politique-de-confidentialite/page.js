@@ -8,7 +8,10 @@ export default function PolitiqueDeConfidentialite() {
 			<div className="container mx-auto text-black font-cocomat">
 				<Link href={"/"} className="flex justify-center top-10">
 					{" "}
-					<button className="btn m-10"> Page d'accueil </button>{" "}
+					<button className="btn m-10">
+						{" "}
+						Page d&apos;accueil{" "}
+					</button>{" "}
 				</Link>
 				<h1 className="m-5 text-2xl underline"> Qui sommes-nous ? </h1>
 				<p className="m-3">

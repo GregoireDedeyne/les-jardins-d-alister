@@ -70,7 +70,7 @@ export function FollowUs() {
 						{" "}
 						Votre avis et votre engagement nous tiennent à coeur.
 						Rejoignez notre communauté en ligne et participez à
-						l&apos;aventure des Jardins d'Alister.
+						l&apos;aventure des Jardins d&apos;Alister.
 					</p>
 					<p className="w-full my-2  text-black">
 						{" "}
