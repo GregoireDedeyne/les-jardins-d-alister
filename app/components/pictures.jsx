@@ -14,7 +14,7 @@ const SkeletonOne = () => {
 	return (
 		<div>
 			<p className="font-bold text-4xl text-white">
-				Réalisation d'une cloture
+				Réalisation d&apos;une cloture
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
@@ -28,7 +28,9 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
 	return (
 		<div>
-			<p className="font-bold text-4xl text-white">Pose d'une haie</p>
+			<p className="font-bold text-4xl text-white">
+				Pose d&apos;une haie
+			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				Perched high above the world, this house offers breathtaking
@@ -42,7 +44,7 @@ const SkeletonThree = () => {
 	return (
 		<div>
 			<p className="font-bold text-4xl text-white">
-				Réalisation d'une bordure
+				Réalisation d&apos;une bordure
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">

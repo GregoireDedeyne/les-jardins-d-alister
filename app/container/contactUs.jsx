@@ -68,12 +68,12 @@ export function ContactUs() {
 
 							<p className="max-w-xl mt-6 font-cocomat">
 								Prêt à transformer vos espaces extérieurs ?
-								Contactez Les jardins d'Alister dès aujourd'hui
-								pour discuter de votre projet. Que vous soyez en
-								Belgique ou dans le nord de la France, notre
-								équipe est à votre disposition pour répondre à
-								vos questions et vous accompagner dans la
-								réalisation de vos rêves
+								Contactez Les jardins d&apos;Alister dès
+								aujourd&apos;hui pour discuter de votre projet.
+								Que vous soyez en Belgique ou dans le nord de la
+								France, notre équipe est à votre disposition
+								pour répondre à vos questions et vous
+								accompagner dans la réalisation de vos rêves
 							</p>
 
 							<div className="mt-6 md:mt-8">

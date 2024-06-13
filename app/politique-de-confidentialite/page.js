@@ -12,7 +12,7 @@ export default function PolitiqueDeConfidentialite() {
 				</Link>
 				<h1 className="m-5 text-2xl underline"> Qui sommes-nous ? </h1>
 				<p className="m-3">
-					L’adresse de notre site Web est :
+					L&apos;adresse de notre site Web est :
 					http://lesjardinsdalister.com.{" "}
 				</p>{" "}
 				<h1 className="m-5 text-2xl underline">

@@ -19,10 +19,10 @@ export function Achievements() {
 					{" "}
 					Découvrez quelques-unes de nos plus belles créations. Chaque
 					projet est une démonstration de notre savoir-faire et de
-					notre passion pour l'architecture paysagère. Que ce soit
-					pour des résidences privées, des immeubles à appartements ou
-					des espaces publics, nous apportons une touche unique à
-					chaque aménagement.{" "}
+					notre passion pour l&apos;architecture paysagère. Que ce
+					soit pour des résidences privées, des immeubles à
+					appartements ou des espaces publics, nous apportons une
+					touche unique à chaque aménagement.{" "}
 				</p>
 				<Pictures />
 

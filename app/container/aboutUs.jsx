@@ -18,15 +18,15 @@ export function AboutUs() {
 
 					<div className="max-w-4/5 z-0  font-cocomat">
 						<p className="mb-5 md:text-4xl text-lg">
-							Depuis notre création, Les Jardins d'Alister se sont
-							imposés comme une référence dans le domaine de
-							l'architecture paysagère.
+							Depuis notre création, Les Jardins d&apos;Alister se
+							sont imposés comme une référence dans le domaine de
+							l&apos;architecture paysagère.
 						</p>
 						<p className="mb-5 md:text-4xl text-lg">
-							Fort de nombreuses années d'expérience, nous sommes
-							passionnés par l'art de sublimer les espaces
-							extérieurs. Notre approche repose sur l'écoute, la
-							créativité et l'excellence.
+							Fort de nombreuses années d&apos;expérience, nous
+							sommes passionnés par l&apos;art de sublimer les
+							espaces extérieurs. Notre approche repose sur
+							l&apos;écoute, la créativité et l&apos;excellence.
 						</p>
 						<p className="mb-5 md:text-4xl text-lg">
 							Chaque projet est une nouvelle opportunité de

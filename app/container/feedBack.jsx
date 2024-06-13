@@ -16,9 +16,9 @@ export function FeedBack() {
 				<p className="self-center w-2/3 text-black font-cocomat text-xl">
 					{" "}
 					Les retours de nos clients sont essentiels pour nous. Ils
-					nous permettent de grandir et d'améliorer constamment nos
-					services. Voici ce que certains de nos clients disent de
-					leur expérience avec Les jardins d'Alister.{" "}
+					nous permettent de grandir et d&apos;améliorer constamment
+					nos services. Voici ce que certains de nos clients disent de
+					leur expérience avec Les jardins d&apos;Alister.{" "}
 				</p>
 				<div className="flex flex-col lg:flex-row">
 					{" "}

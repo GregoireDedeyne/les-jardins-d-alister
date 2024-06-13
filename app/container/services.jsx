@@ -54,7 +54,7 @@ const SkeletonOne = () => {
 				Nous proposons des services de conception sur mesure, incluant
 				des plans détaillés et des projections 3D. Chaque projet est
 				conçu en fonction de vos besoins et de vos désirs, en harmonie
-				avec l'environnement et le style souhaité.
+				avec l&apos;environnement et le style souhaité.
 			</p>
 		</div>
 	);
@@ -69,9 +69,9 @@ const SkeletonTwo = () => {
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				Nous créons des terrasses, installons des pergolas, aménageons
-				parterres, plans d'eau, clôtures, palissades, étangs et piscines
-				naturelles. De A à Z, nous transformons votre espace extérieur
-				en un lieu de détente et de bien-être.
+				parterres, plans d&apos;eau, clôtures, palissades, étangs et
+				piscines naturelles. De A à Z, nous transformons votre espace
+				extérieur en un lieu de détente et de bien-être.
 			</p>
 		</div>
 	);
@@ -83,10 +83,11 @@ const SkeletonThree = () => {
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
 				La mise à blanc de terrain est essentielle pour démarrer tout
-				projet d'aménagement sur de bonnes bases. Elle comprend le
-				nettoyage du sol, l'élimination des débris et la préparation du
-				terrain pour de futurs aménagements, assurant ainsi un espace
-				propre et prêt à accueillir vos idées et projets.
+				projet d&apos;aménagement sur de bonnes bases. Elle comprend le
+				nettoyage du sol, l&apos;élimination des débris et la
+				préparation du terrain pour de futurs aménagements, assurant
+				ainsi un espace propre et prêt à accueillir vos idées et
+				projets.
 			</p>
 		</div>
 	);

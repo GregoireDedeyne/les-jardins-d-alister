@@ -14,12 +14,12 @@ export function FollowUs() {
 
 					<p className="w-full my-2  text-black ">
 						{" "}
-						Restez connecté avec Les jardins d'Alister et découvrez
-						toutes nos actualités en temps réel ! Nous sommes
-						présents sur les réseaux sociaux pour partager avec vous
-						nos dernières réalisations, des conseils en aménagement
-						paysager, des astuces pour entretenir votre jardin, et
-						bien plus encore.{" "}
+						Restez connecté avec Les jardins d&apos;Alister et
+						découvrez toutes nos actualités en temps réel ! Nous
+						sommes présents sur les réseaux sociaux pour partager
+						avec vous nos dernières réalisations, des conseils en
+						aménagement paysager, des astuces pour entretenir votre
+						jardin, et bien plus encore.{" "}
 					</p>
 
 					<p className="w-full  text-black"> Rejoignez-nous sur : </p>
@@ -70,7 +70,7 @@ export function FollowUs() {
 						{" "}
 						Votre avis et votre engagement nous tiennent à coeur.
 						Rejoignez notre communauté en ligne et participez à
-						l'aventure des Jardins d'Alister.
+						l&apos;aventure des Jardins d'Alister.
 					</p>
 					<p className="w-full my-2  text-black">
 						{" "}
@@ -87,11 +87,11 @@ export function FollowUs() {
 					<li>
 						{" "}
 						Inspiration et idées : Découvrez des projets
-						d'aménagements extérieurs inspirants et laissez vous
-						séduire par nos créations uniques
+						d&apos;aménagements extérieurs inspirants et laissez
+						vous séduire par nos créations uniques
 					</li>{" "}
 					<li>
-						Conseils d'experts : Bénéficiez des conseils de nos
+						Conseils d&apos;experts : Bénéficiez des conseils de nos
 						experts et jardinage et en architecture paysagère pour
 						entretenir et embellir vos espaces verts.
 					</li>
