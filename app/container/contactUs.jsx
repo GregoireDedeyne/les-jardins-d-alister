@@ -1,5 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export function ContactUs() {
 	const [formData, setFormData] = useState({
@@ -23,29 +26,28 @@ export function ContactUs() {
 			message: "",
 		});
 	};
-
-	const handleSubmit = async (e) => {
+	useEffect(() => {
+		// Initialiser EmailJS avec votre ID utilisateur
+		emailjs.init("pj2b1Stj_DPO65PGL");
+	}, []);
+	const handleSubmit = (e) => {
 		e.preventDefault();
 
-		try {
-			const response = await fetch("/api", {
-				method: "POST",
-				headers: {
-					"Content-Type": "application/json",
-				},
-				body: JSON.stringify(formData),
-			});
-
-			if (response.ok) {
-				alert("Email envoyé avec succès");
-				resetForm();
-			} else {
-				alert(`Echec de l'envoie`);
-			}
-		} catch (error) {
-			console.error("Error sending email:", error);
-			alert("Error sending email");
+		if (!formData.name || !formData.email || !formData.message) {
+			toast.error("Veuillez remplir tous les champs du formulaire.");
+			return;
 		}
+
+		// Envoyer l'email via EmailJS
+		emailjs
+			.send("service_9kmzfkw", "template_j0v1lud", formData)
+			.then((response) => {
+				toast.success("Email envoyé avec succès!");
+				resetForm();
+			})
+			.catch((err) => {
+				toast.error("Erreur lors de l'envoi de l'email: " + err.text);
+			});
 	};
 
 	return (
@@ -61,7 +63,7 @@ export function ContactUs() {
 						<div className="text-white lg:w-1/2 lg:mx-6">
 							<h1
 								id="contacts"
-								className="font-organic uppercase mb-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[4.5rem] font-bold dark:font-outline-2-primary font-outline-2-secondary			"
+								className="font-organic uppercase mb-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[4.5rem] font-bold font-outline-2-primary			"
 							>
 								contactez-nous{" "}
 							</h1>

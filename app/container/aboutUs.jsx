@@ -1,9 +1,9 @@
 export function AboutUs() {
 	return (
-		<div className="hero min-h-screen relative container mx-auto">
+		<div className="hero relative container mx-auto p-10">
 			<div className="relative z-10 flex flex-col items-center justify-center h-full">
 				<div className="relative w-full whitespace-nowrap md:justify-start justify-center">
-					<h2 className="mb-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-7xl font-bold dark:font-outline-2-primary font-outline-2-secondary font-organic">
+					<h2 className="mb-5 text-xl sm:text-3xl md:text-4xl text-transparent lg:text-4xl font-bold dark:font-outline-2-primary font-outline-2-secondary font-organic">
 						{" "}
 						A PROPOS DE NOUS{" "}
 					</h2>
@@ -17,18 +17,18 @@ export function AboutUs() {
 					<div className="hero-overlay absolute bg-opacity-60"></div>
 
 					<div className="max-w-4/5 z-0  font-cocomat">
-						<p className="mb-5 md:text-4xl text-lg">
+						<p className="mb-5 md:text-xl text-lg">
 							Depuis notre création, Les Jardins d&apos;Alister se
 							sont imposés comme une référence dans le domaine de
 							l&apos;architecture paysagère.
 						</p>
-						<p className="mb-5 md:text-4xl text-lg">
+						<p className="mb-5 md:text-xl text-lg">
 							Fort de nombreuses années d&apos;expérience, nous
 							sommes passionnés par l&apos;art de sublimer les
 							espaces extérieurs. Notre approche repose sur
 							l&apos;écoute, la créativité et l&apos;excellence.
 						</p>
-						<p className="mb-5 md:text-4xl text-lg">
+						<p className="mb-5 md:text-xl text-lg">
 							Chaque projet est une nouvelle opportunité de
 							repousser les limites du design paysager et de créer
 							des lieux uniques, alliant esthétique,

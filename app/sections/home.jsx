@@ -8,7 +8,7 @@ export function HomePage() {
 			<Index />
 			<div className="bg-white z-1 relative">
 				<img
-					className="bg-white hidden lg:block absolute w-[30rem] xl:w-[40rem] 2xl:w-[50rem] bottom-0 z-0"
+					className="bg-white hidden lg:block absolute w-[30rem]  2xl:w-[33rem] bottom-0 z-0"
 					src="/Pictures/alisterWelcome.png"
 				/>{" "}
 				<Welcome />

@@ -13,7 +13,7 @@ export function Index() {
 			<FloatingNavDemo />
 			<img
 				src="/Pictures/logoMonoIndex.png"
-				className="absolute top-0 md:top-[-5rem] w-[60%] h-[18%] md:h-1/3 right-0 xl:w-1/3 lg:w-[60%] lg:h-1/3"
+				className="absolute top-0 md:top-[-2rem] w-[60%] h-[18%] md:h-1/3 right-0 xl:w-1/3 lg:w-[50%] lg:h-1/3"
 			/>
 			<img
 				src="/Pictures/Architecte.png"

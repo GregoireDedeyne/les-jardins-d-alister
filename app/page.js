@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { HomePage } from "./sections/home";
 import { Services } from "./container/services";
 import { Steps } from "./container/steps";
@@ -9,10 +8,13 @@ import { Contacts } from "./sections/contact";
 import { NavBar } from "./components/navBar";
 import { Footer } from "./components/footer";
 import { ServicesSmall } from "./container/servicesSmall";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
 	return (
 		<main className="">
+			<ToastContainer />
+
 			<HomePage />
 			<div className=" md:hidden">
 				<ServicesSmall />

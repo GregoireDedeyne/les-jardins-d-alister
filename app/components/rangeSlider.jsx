@@ -1,6 +1,6 @@
 // pages/index.js
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export function RangeSlider() {
 	const [value, setValue] = useState(0);
@@ -20,13 +20,21 @@ export function RangeSlider() {
 		return texts[val] || "Valeur hors de portée";
 	};
 
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setValue((prevValue) => (prevValue < 4 ? prevValue + 1 : 0));
+		}, 5000); // Change the review every 5 seconds
+
+		return () => clearInterval(interval);
+	}, []);
+
 	const getSubtitleForValue = (val) => {
 		const texts = [
 			"Aspects positifs : Qualité, Rapport qualité-prix",
 			"Aspects positifs : Professionnalisme, Qualité",
 			"Aspects positifs : Professionnalisme, Qualité ",
 			"Aspects positifs : Professionnalisme, Qualité",
-			" ",
+			"Aspects positifs : Professionnalisme, Qualité",
 		];
 		return texts[val] || "Valeur hors de portée";
 	};
@@ -52,11 +60,13 @@ export function RangeSlider() {
 				onChange={handleChange}
 				className="self-center rotate-90"
 			/>
-			<div className="mt-6 lg:h-2/3   self-center p-4 bg-gray-100 rounded shadow w-2/3 font-cocomat">
+			<div className="mt-6   self-center p-4 bg-gray-100 rounded shadow w-2/3 font-cocomat">
 				<h2 className="text-2xl"> {getTitleForValue(value)} </h2>
 				<img src="/Pictures/rating.png" />
 				<h3 className="py-5"> {getSubtitleForValue(value)} </h3>
-				<p className="text-sm font-bold ">{getTextForValue(value)}</p>
+				<p className="text-sm h-[10rem] font-bold overflow-hidden text-ellipsis">
+					{getTextForValue(value)}
+				</p>
 			</div>
 		</div>
 	);

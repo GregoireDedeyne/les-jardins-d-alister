@@ -1,24 +1,24 @@
 export function Welcome() {
 	return (
-		<div className="flex min-h-screen justify-center lg:justify-between container mx-auto">
+		<div className="flex  justify-center lg:justify-between container mx-auto p-5">
 			<div className="hidden lg:flex items-center w-1/2"> </div>
-			<div className="flex flex-col justify-center w-1/2 text-black text-m md:text-lg lg:text-xl font-cocomat">
+			<div className="flex flex-col justify-center w-1/2 p-10 text-black text-m md:text-lg lg:text-xl font-cocomat">
 				{" "}
 				<img
 					src="Pictures/bordureG.png"
-					className="absolute xl:h-48 xl:w-48 lg:left-[35rem] xl:top-[8rem] top-5 sm:top-[8rem] sm:left-[10rem] w-20 h-20 left-[3rem] 2xl:left-[52rem] 2xl:w-64 2xl:h-64 2xl:top-24 "
+					className="hidden absolute  lg:left-[35rem] xl:left-[41rem] xl:top-0 top-5 sm:top-[8rem] sm:left-[10rem] w-20 h-20 left-[3rem] 2xl:left-[52rem] 2xl:w-28 2xl:h-28 2xl:top-0 "
 				/>
 				<p className="mb-5">
 					{" "}
 					Bienvenue chez Les jardins d&apos;Alister.{" "}
 				</p>
-				En tant que votre
 				<p className="mb-5">
 					{" "}
-					partenaire privilégié pour la création et l&apos;aménagement
-					d&apos;espaces extérieurs d&apos;exception, nous sommes
-					basés à Tournai en Belgique et nous distinguons par notre
-					expertise en architecture paysagère.{" "}
+					En tant que votre partenaire privilégié pour la création et
+					l&apos;aménagement d&apos;espaces extérieurs
+					d&apos;exception, nous sommes basés à Tournai en Belgique et
+					nous distinguons par notre expertise en architecture
+					paysagère.{" "}
 				</p>
 				<p className="mb-5">
 					{" "}
@@ -35,7 +35,7 @@ export function Welcome() {
 				</p>
 				<img
 					src="/Pictures/bordureD.png"
-					className="absolute xl:h-48 xl:w-48 xl:right-[-2.2rem] lg:right-[1rem] sm:bottom-[21.5rem] sm:right-[10rem] bottom-[15rem] right-[4rem] w-20 h-20  2xl:w-64 2xl:h-64 xl:bottom-[20rem] 2xl:right-16"
+					className="absolute hidden xl:right-[5rem] lg:right-[1rem] sm:bottom-[21.5rem] sm:right-[10rem] bottom-[15rem] right-[4rem] w-20 h-20  2xl:w-28 2xl:h-28 xl:bottom-[10rem] 2xl:right-24"
 				/>
 			</div>
 		</div>

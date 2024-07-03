@@ -3,9 +3,9 @@ import { StepsBySteps } from "../components/stepsBySteps";
 export function Steps() {
 	return (
 		<div className="bg-black">
-			<div className=" container mx-auto">
+			<div className=" container mx-auto p-10">
 				<div className="flex gap-5 font-organic">
-					<h1 className="mb-5 pt-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[8rem] font-bold dark:font-outline-2-primary font-outline-2-secondary self-end">
+					<h1 className="mb-5 pt-5 text-xl sm:text-3xl md:text-4xl text-transparent xl:text-[5rem] font-bold font-outline-2-primary  self-end">
 						{" "}
 						VOTRE PROJET{" "}
 					</h1>{" "}

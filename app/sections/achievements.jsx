@@ -11,7 +11,7 @@ export function Achievements() {
 			}}
 		>
 			<div className="container mx-auto flex flex-col">
-				<h1 className="font-organic mb-5 pt-5 text-4xl mr-5 uppercase sm:text-5xl md:text-6xl text-transparent lg:text-[9rem] font-bold dark:font-outline-2-secondary font-outline-2-primary self-end			">
+				<h1 className="font-organic mb-5 pt-5 text-xl mr-5 uppercase sm:text-3xl md:text-5xl text-transparent lg:text-[5rem] font-bold dark:font-outline-2-secondary font-outline-2-primary self-end			">
 					{" "}
 					Réalisations{" "}
 				</h1>
@@ -28,7 +28,10 @@ export function Achievements() {
 
 				<Link href={"/instagram"} className="text-center">
 					{" "}
-					<button className="btn mb-10"> Voir plus </button>{" "}
+					<button className="btn p-8 mb-10 text-l">
+						{" "}
+						Voir plus{" "}
+					</button>{" "}
 				</Link>
 			</div>
 		</div>

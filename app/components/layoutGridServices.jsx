@@ -26,16 +26,16 @@ export const LayoutGridServices = ({ cards }) => {
 						onClick={() => handleClick(card)}
 						className={cn(
 							card.className,
-							"relative overflow-hidden",
+							"relative hover:cursor-pointer overflow-hidden",
 							selected?.id === card.id
-								? "rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
+								? "rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col "
 								: lastSelected?.id === card.id
 								? "z-40 bg-white rounded-xl h-full w-full"
 								: "bg-white rounded-xl h-full w-full"
 						)}
 						layout
 					>
-						<h1 className="absolute top-0 left-20 md:top-32 md:left-20 text-2xl text-white transition-opacity duration-500 z-20 group-hover:opacity-0 w-2/3 font-cocomat">
+						<h1 className="absolute top-0 left-20 md:left-16 md:top-32 lg:left-20 lg:text-2xl text-l text-white transition-opacity duration-500 z-20 group-hover:opacity-0 w-2/3 font-cocomat">
 							{card.title}{" "}
 						</h1>
 						{selected?.id === card.id && (

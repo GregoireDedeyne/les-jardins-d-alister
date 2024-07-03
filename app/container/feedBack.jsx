@@ -3,13 +3,13 @@ import { RangeSlider } from "../components/rangeSlider";
 export function FeedBack() {
 	return (
 		<div
-			className="bg-repeat min-h-screen bg-white"
+			className="bg-repeat min-h-screen bg-white py-5"
 			style={{
 				backgroundImage: "url('/Pictures/logoMosaique.png')",
 			}}
 		>
 			<div className="container mx-auto flex flex-col">
-				<h1 className="font-organic uppercase mb-5 pt-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[8rem] font-bold dark:font-outline-2-secondary font-outline-2-primary self-end			">
+				<h1 className="font-organic uppercase mb-5 py-5 text-xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold dark:font-outline-2-secondary font-outline-2-primary self-end			">
 					{" "}
 					Votre avis compte{" "}
 				</h1>

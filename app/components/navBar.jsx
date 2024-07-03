@@ -17,14 +17,14 @@ export function NavBar() {
 							<NavIcon
 								url="/Pictures/Services.png"
 								text={"Services"}
-								link={"#achievements"}
+								link={"#Services"}
 							/>
 						</li>
 						<li>
 							<NavIcon
 								url="/Pictures/Photos.png"
 								text={"Photos"}
-								link={"#Pictures"}
+								link={"#achievements"}
 							/>
 						</li>
 						<li>
@@ -77,25 +77,29 @@ export function NavBar() {
 							<li>
 								<NavIcon
 									url="/Pictures/Services.png"
-									link={"#home"}
+									text={"services"}
+									link={"#Services"}
 								/>
 							</li>
 							<li>
 								<NavIcon
 									url="/Pictures/Photos.png"
-									link={"#home"}
+									text={"pictures"}
+									link={"#achievements"}
 								/>
 							</li>
 							<li>
 								<NavIcon
 									url="/Pictures/Teams.png"
+									text={"teams"}
 									link={"#teams"}
 								/>
 							</li>
 							<li>
 								<NavIcon
 									url="/Pictures/Contacts.png"
-									link={"#home"}
+									text={"accueil"}
+									link={"#contacts"}
 								/>
 							</li>
 						</ul>
