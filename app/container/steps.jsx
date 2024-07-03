@@ -5,7 +5,7 @@ export function Steps() {
 		<div className="bg-black">
 			<div className=" container mx-auto p-10">
 				<div className="flex gap-5 font-organic">
-					<h1 className="mb-5 pt-5 text-2xl sm:text-3xl md:text-4xl text-transparent xl:text-[5rem] font-bold font-outline-2-primary  self-end">
+					<h1 className="mb-5 pt-5 text-3xl sm:text-3xl md:text-4xl text-transparent xl:text-[5rem] font-bold font-outline-2-primary  self-end">
 						{" "}
 						VOTRE PROJET{" "}
 					</h1>{" "}

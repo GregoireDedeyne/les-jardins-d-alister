@@ -9,7 +9,7 @@ export function FeedBack() {
 			}}
 		>
 			<div className="container mx-auto flex flex-col">
-				<h1 className="font-organic uppercase mb-5 py-5 text-xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary self-end			">
+				<h1 className="font-organic uppercase mb-5 py-5 text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary self-end			">
 					{" "}
 					Votre avis compte{" "}
 				</h1>

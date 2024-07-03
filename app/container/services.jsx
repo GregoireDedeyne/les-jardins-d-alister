@@ -12,7 +12,7 @@ export function Services() {
 			}}
 		>
 			<div className="container mx-auto flex flex-col ">
-				<h1 className="mb-5 pt-5 text-2xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary  self-end font-organic">
+				<h1 className="mb-5 pt-5 text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary self-end font-organic">
 					SERVICES{" "}
 				</h1>
 				<div className="self-center font-cocomat w-2/3 text-black text-xl">
