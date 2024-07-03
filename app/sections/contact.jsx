@@ -14,7 +14,7 @@ export function Contacts() {
 				/>
 			</div>
 			<div
-				className="bg-repeat min-h-screen bg-white"
+				className="bg-repeat bg-white"
 				style={{
 					backgroundImage: "url('/Pictures/logoMosaique.png')",
 				}}
