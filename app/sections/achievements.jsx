@@ -11,7 +11,7 @@ export function Achievements() {
 			}}
 		>
 			<div className="container mx-auto flex flex-col">
-				<h1 className="font-organic mb-5 pt-5 text-xl mr-5 uppercase sm:text-3xl md:text-5xl text-transparent lg:text-[5rem] font-bold dark:font-outline-2-secondary font-outline-2-primary self-end			">
+				<h1 className="font-organic mb-5 pt-5 text-xl mr-5 uppercase sm:text-3xl md:text-5xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary self-end			">
 					{" "}
 					Réalisations{" "}
 				</h1>
