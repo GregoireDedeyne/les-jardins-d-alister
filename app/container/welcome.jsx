@@ -2,7 +2,7 @@ export function Welcome() {
 	return (
 		<div className="flex  justify-center lg:justify-between container mx-auto p-5">
 			<div className="hidden lg:flex items-center w-1/2"> </div>
-			<div className="flex flex-col justify-center w-1/2 p-10 text-black text-m md:text-lg lg:text-xl font-cocomat">
+			<div className="flex flex-col justify-center lg:w-1/2 p-10 text-black text-m md:text-lg lg:text-xl font-cocomat">
 				{" "}
 				<img
 					src="Pictures/bordureG.png"

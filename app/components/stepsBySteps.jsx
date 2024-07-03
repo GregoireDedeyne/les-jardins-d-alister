@@ -70,7 +70,7 @@ const content = [
 ];
 export function StepsBySteps() {
 	return (
-		<div className="p-10 font-cocomat">
+		<div className=" pt-10 lg:p-10 font-cocomat">
 			<StickyScroll content={content} />
 		</div>
 	);
