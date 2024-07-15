@@ -58,12 +58,12 @@ export function ContactUs() {
 			}}
 		>
 			<div className="flex flex-col min-h-screen bg-black/60">
-				<div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
+				<div className="container flex flex-col flex-1 py-12 mx-auto">
 					<div className="flex-1 lg:flex lg:items-center lg:-mx-6">
-						<div className="text-white lg:w-1/2 lg:mx-6">
+						<div className="text-white lg:w-2/3 lg:mx-6">
 							<h1
 								id="contacts"
-								className="font-organic uppercase mb-5 text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-primary			"
+								className="font-organic uppercase mb-5 text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-[3rem] xl:text-[4rem] 2xl:text-[5rem] font-bold font-outline-2-primary			"
 							>
 								contactez-nous{" "}
 							</h1>
