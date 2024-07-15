@@ -64,13 +64,7 @@ export default function Swipper() {
 						url={"/Pictures/20.png"}
 					/>
 				</SwiperSlide>
-				<SwiperSlide className=" flex flex-col">
-					<SwiperSlider
-						text={"Chef d’équipe "}
-						name={"Stani"}
-						url={"/Pictures/22.png"}
-					/>
-				</SwiperSlide>
+
 				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
 						text={"Horticulteur"}

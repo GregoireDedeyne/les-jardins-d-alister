@@ -19,12 +19,12 @@ export function WhiteCut() {
 						</svg>
 					</div>
 					<div className="stat-title">Projets</div>
-					<div className="stat-value text-primary">2317+</div>
+					<div className="stat-value">2317+</div>
 				</div>
 
 				<div className="stat">
 					<div className="stat-figure text-secondary">
-						<svg
+						{/* <svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
@@ -36,10 +36,10 @@ export function WhiteCut() {
 								strokeWidth="2"
 								d="M13 10V3L4 14h7v7l9-11h-7z"
 							></path>
-						</svg>
+						</svg> */}
 					</div>
 					<div className="stat-title">Clients satisfaits</div>
-					<div className="stat-value text-slate-300">1130 +</div>
+					<div className="stat-value ">1130 +</div>
 				</div>
 
 				<div className="stat">

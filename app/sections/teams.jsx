@@ -7,9 +7,9 @@ export function Teams() {
 		<div className=" flex flex-col flex-grow relative " id="teams">
 			<div className="relative  grow bg-cover bg-[url('/Pictures/slider.jpg')]">
 				{" "}
-				<h1 className="xl:left-[40rem] right-10 absolute z-0 font-organic pt-[10rem]  text-4xl md:text-7xl text-transparent xl:text-[11rem] font-bold font-outline-2-primary ">
+				<h1 className="xl:left-[50rem] right-10 absolute z-0 font-organic pt-[10rem]  text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold uppercase font-outline-2-primary ">
 					{" "}
-					Equipe{" "}
+					équipe{" "}
 				</h1>
 				<img
 					src="/Pictures/logoWhite.png"

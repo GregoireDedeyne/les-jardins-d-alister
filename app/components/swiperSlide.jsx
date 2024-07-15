@@ -15,8 +15,8 @@ export function SwiperSlider({ url, text, name }) {
 
 			<div className="bg-black text-white w-full lg:w-2/3 xl:w-1/2 lg:h-24 xl:h-32 absolute bottom-5 sm:flex flex-col text-center md:flex-row md:justify-center md:gap-[5rem] xl:gap-[10rem] py-2 md:py-10 lg:rounded-r-full font-cocomat">
 				{" "}
-				<p className="text-4xl xl:text-3xl 2xl:text-4xl"> {text} </p>
-				<p className="text-4xl xl:text-3xl 2xl:text-5xl"> {name} </p>
+				<p className="text-xl xl:text-2xl 2xl:text-4xl"> {text} </p>
+				<p className="text-xl xl:text-2xl 2xl:text-5xl"> {name} </p>
 			</div>
 		</div>
 	);

@@ -11,11 +11,11 @@ export function Achievements() {
 			}}
 		>
 			<div className="container mx-auto flex flex-col">
-				<h1 className="font-organic mb-5 pt-5 text-2xl mr-5 uppercase sm:text-3xl md:text-5xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary self-end			">
+				<h1 className="font-organic mb-5 pt-10 mr-5 uppercase text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary self-end			">
 					{" "}
 					Réalisations{" "}
 				</h1>
-				<p className="self-center w-2/3 text-black font-cocomat text-xl">
+				<p className="self-center w-2/3 text-black font-cocomat text-xl pt-5">
 					{" "}
 					Découvrez quelques-unes de nos plus belles créations. Chaque
 					projet est une démonstration de notre savoir-faire et de

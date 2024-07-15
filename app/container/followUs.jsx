@@ -7,7 +7,7 @@ export function FollowUs() {
 					src="/Pictures/device.png"
 				/>
 				<div className="flex flex-col font-cocomat">
-					<h1 className="mr-5 font-organic uppercase mb-5 py-8 text-xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary  self-end			">
+					<h1 className="mr-5 font-organic uppercase mb-5 py-8 text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-secondary  self-end			">
 						{" "}
 						Suivez-nous{" "}
 					</h1>

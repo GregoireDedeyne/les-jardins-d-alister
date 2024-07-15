@@ -63,7 +63,7 @@ export function ContactUs() {
 						<div className="text-white lg:w-1/2 lg:mx-6">
 							<h1
 								id="contacts"
-								className="font-organic uppercase mb-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[4.5rem] font-bold font-outline-2-primary			"
+								className="font-organic uppercase mb-5 text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-[5rem] font-bold font-outline-2-primary			"
 							>
 								contactez-nous{" "}
 							</h1>
@@ -79,13 +79,13 @@ export function ContactUs() {
 							</p>
 
 							<div className="mt-6 md:mt-8">
-								<div className="flex mt-4 -mx-1.5 ">
+								<div className="block sm:flex mt-4 -mx-1.5 ">
 									<a
 										className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500 flex"
 										href="#"
 									>
 										<svg
-											className="w-8 h-8 fill-current"
+											className="w-8 h-8 mx-2 fill-current"
 											viewBox="0 0 24 24"
 											fill="none"
 											xmlns="http://www.w3.org/2000/svg"

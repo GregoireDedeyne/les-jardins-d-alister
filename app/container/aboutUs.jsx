@@ -3,9 +3,9 @@ export function AboutUs() {
 		<div className="hero relative container mx-auto p-10">
 			<div className="relative z-10 flex flex-col items-center justify-center h-full">
 				<div className="relative w-full whitespace-nowrap md:justify-start justify-center">
-					<h2 className="mb-5 text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-4xl font-bold font-outline-2-primary font-organic">
+					<h2 className="mb-5 text-3xl sm:text-3xl md:text-4xl text-transparent lg:text-4xl font-bold font-outline-2-primary font-organic uppercase">
 						{" "}
-						A PROPOS DE NOUS{" "}
+						à PROPOS DE NOUS{" "}
 					</h2>
 				</div>
 				<div
