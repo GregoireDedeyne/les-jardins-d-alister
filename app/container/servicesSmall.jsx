@@ -12,7 +12,7 @@ export function ServicesSmall() {
 			}}
 		>
 			<div className="container mx-auto flex flex-col ">
-				<h1 className="mb-5 pt-5 mr-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[9rem] font-bold dark:font-outline-2-secondary font-outline-2-primary self-end font-organic">
+				<h1 className="mb-5 pt-5 mr-5 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-[9rem] font-bold font-outline-2-secondary self-end font-organic">
 					SERVICES{" "}
 				</h1>
 				<div className="self-center font-cocomat w-2/3 text-black text-xl">

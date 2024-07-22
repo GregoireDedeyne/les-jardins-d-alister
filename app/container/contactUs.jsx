@@ -37,10 +37,14 @@ export function ContactUs() {
 			toast.error("Veuillez remplir tous les champs du formulaire.");
 			return;
 		}
-
+		const templateParams = {
+			name: formData.name,
+			email: formData.email,
+			message: formData.message,
+		};
 		// Envoyer l'email via EmailJS
 		emailjs
-			.send("service_9kmzfkw", "template_j0v1lud", formData)
+			.send("service_9kmzfkw", "template_j0v1lud", templateParams)
 			.then((response) => {
 				toast.success("Email envoyé avec succès!");
 				resetForm();
