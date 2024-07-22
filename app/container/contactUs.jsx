@@ -52,6 +52,7 @@ export function ContactUs() {
 
 	return (
 		<section
+			id="contacts"
 			className="min-h-screen bg-cover "
 			style={{
 				backgroundImage: "url('/Pictures/aboutUsImg.jpg')",

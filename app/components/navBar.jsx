@@ -37,7 +37,7 @@ export function NavBar() {
 						<li>
 							<NavIcon
 								url="/Pictures/Contacts.png"
-								text={"Contacts"}
+								text={"Contact"}
 								link={"#contacts"}
 							/>
 						</li>
@@ -98,7 +98,7 @@ export function NavBar() {
 							<li>
 								<NavIcon
 									url="/Pictures/Contacts.png"
-									text={"accueil"}
+									text={"contact"}
 									link={"#contacts"}
 								/>
 							</li>

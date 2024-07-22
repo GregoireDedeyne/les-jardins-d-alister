@@ -81,8 +81,8 @@ export function FollowUs() {
 			</div>
 			<div className="my-5 text-black">
 				{" "}
-				<h1 className="text-xl my-2 "> Pourquoi nous suivre ? </h1>{" "}
-				<ul className="list-disc pl-5 space-y-2">
+				<h1 className="text-xl my-5 "> Pourquoi nous suivre ? </h1>{" "}
+				<ul className="list-disc pl-5 space-y-3">
 					{" "}
 					<li>
 						{" "}

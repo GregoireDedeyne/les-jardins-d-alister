@@ -4,7 +4,7 @@ import { FollowUs } from "../container/followUs";
 
 export function Contacts() {
 	return (
-		<div id="contacts">
+		<div>
 			{" "}
 			<div className="bg-black text-white">
 				<BlackCut
