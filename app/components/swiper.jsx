@@ -68,21 +68,21 @@ export default function Swipper() {
 				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
 						text={"Horticulteur"}
-						name={"George"}
+						name={"Georges"}
 						url={"/Pictures/23.png"}
 					/>
 				</SwiperSlide>
 				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
-						text={"Rémy"}
-						name={"Menuisier"}
+						text={"Menuisier"}
+						name={"Rémy"}
 						url={"/Pictures/remy.png"}
 					/>
 				</SwiperSlide>
 				<SwiperSlide className=" flex flex-col">
 					<SwiperSlider
-						text={"Benjamin"}
-						name={"Jardinier"}
+						text={"Jardinier"}
+						name={"Benjamin"}
 						url={"/Pictures/benjamin.png"}
 					/>
 				</SwiperSlide>

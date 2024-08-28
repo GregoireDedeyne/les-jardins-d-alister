@@ -167,35 +167,35 @@ const cards = [
 		content: <SkeletonOne />,
 		className: "md:col-span-1",
 		thumbnail: "/Pictures/1.png",
-		title: "Conception paysagère",
+		title: "",
 	},
 	{
 		id: 2,
 		content: <SkeletonTwo />,
 		className: "col-span-1",
 		thumbnail: "/Pictures/2.png",
-		title: "Aménagement extérieur",
+		title: "",
 	},
 	{
 		id: 3,
 		content: <SkeletonThree />,
 		className: "col-span-1",
 		thumbnail: "/Pictures/3.png",
-		title: "Mise à blanc",
+		title: "",
 	},
 	{
 		id: 4,
 		content: <SkeletonFour />,
 		className: "col-span-1",
 		thumbnail: "/Pictures/4.png",
-		title: "Pose de gazon",
+		title: "",
 	},
 	{
 		id: 5,
 		content: <SkeletonFive />,
 		className: "md:col-span-1",
 		thumbnail: "/Pictures/5.png",
-		title: "Entretien de jardin",
+		title: "",
 	},
 
 	{
@@ -203,7 +203,7 @@ const cards = [
 		content: <SkeletonSix />,
 		className: "md:col-span-1",
 		thumbnail: "/Pictures/6.png",
-		title: "Elagage et Abattage",
+		title: "",
 	},
 
 	{
@@ -211,20 +211,20 @@ const cards = [
 		content: <SkeletonSeven />,
 		className: "col-span-1",
 		thumbnail: "/Pictures/7.png",
-		title: "Plantation et palissade d'arbres",
+		title: "",
 	},
 	{
 		id: 8,
 		content: <SkeletonEight />,
 		className: "md:col-span-1",
 		thumbnail: "/Pictures/8.png",
-		title: "Terrasse et terrassement",
+		title: "",
 	},
 	{
 		id: 9,
 		content: <SkeletonEight />,
 		className: "md:col-span-1",
 		thumbnail: "/Pictures/9.png",
-		title: "Terrasse et terrassement",
+		title: "",
 	},
 ];

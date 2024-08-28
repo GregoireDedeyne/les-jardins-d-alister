@@ -6,7 +6,7 @@ export function FloatingNavDemo() {
 	const navItems = [
 		{
 			name: "Accueil",
-			link: "/",
+			link: "#home",
 			// icon: (
 			// 	<img
 			// 		src="/Pictures/Home.png"
@@ -16,7 +16,7 @@ export function FloatingNavDemo() {
 		},
 		{
 			name: "Services",
-			link: "#services",
+			link: "#Services",
 			// icon: (
 			// 	<IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />
 			// ),
