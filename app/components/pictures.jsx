@@ -18,10 +18,10 @@ const SkeletonOne = () => {
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				Installation d'une clôture en bois durable et esthétique pour
-				assurer l'intimité et l'intégration harmonieuse dans l'espace
-				paysager. Un projet alliant fonctionnalité et design pour un
-				résultat impeccable.
+				Installation d&apos;une clôture en bois durable et esthétique
+				pour assurer l&apos;intimité et l&apos;intégration harmonieuse
+				dans l&apos;espace paysager. Un projet alliant fonctionnalité et
+				design pour un résultat impeccable.
 			</p>
 		</div>
 	);
@@ -31,14 +31,14 @@ const SkeletonTwo = () => {
 	return (
 		<div>
 			<p className="font-bold text-4xl text-white">
-				Création d'un espace détente
+				Création d&apos;un espace détente
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				Création complète d'un espace détente : conception, aménagement
-				paysager, et installation de la terrasse avec mobilier,
-				plantations, et foyer extérieur. Un projet clé en main pour un
-				jardin accueillant et convivial.
+				Création complète d&apos;un espace détente : conception,
+				aménagement paysager, et installation de la terrasse avec
+				mobilier, plantations, et foyer extérieur. Un projet clé en main
+				pour un jardin accueillant et convivial.
 			</p>
 		</div>
 	);
@@ -47,13 +47,14 @@ const SkeletonThree = () => {
 	return (
 		<div>
 			<p className="font-bold text-4xl text-white">
-				Création d'un espace détente
+				Création d&apos;un espace détente
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				Conception et réalisation d'un espace détente avec terrasse,
-				bassin aquatique, et aménagement paysager. Un projet complet
-				pour un cadre apaisant et élégant, intégrant nature et confort.
+				Conception et réalisation d&apos;un espace détente avec
+				terrasse, bassin aquatique, et aménagement paysager. Un projet
+				complet pour un cadre apaisant et élégant, intégrant nature et
+				confort.
 			</p>
 		</div>
 	);
@@ -66,10 +67,10 @@ const SkeletonFour = () => {
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				Installation d'une clôture en bois durable et esthétique pour
-				assurer l'intimité et l'intégration harmonieuse dans l'espace
-				paysager. Un projet alliant fonctionnalité et design pour un
-				résultat impeccable.
+				Installation d&apos;une clôture en bois durable et esthétique
+				pour assurer l&apos;intimité et l&apos;intégration harmonieuse
+				dans l&apos;espace paysager. Un projet alliant fonctionnalité et
+				design pour un résultat impeccable.
 			</p>
 		</div>
 	);
