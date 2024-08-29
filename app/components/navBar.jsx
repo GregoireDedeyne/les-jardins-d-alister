@@ -3,7 +3,7 @@ import { NavIcon } from "./navIcon";
 export function NavBar() {
 	return (
 		<div className="container mx-auto pt-16">
-			<div className="navbar bg-black rounded-3xl w-2/5 bg-opacity-70 flex ">
+			<div className=" navbar bg-black rounded-3xl w-16  lg:w-2/5 bg-opacity-70 flex ">
 				<div className="w-full">
 					<ul className="hidden lg:flex px-1 w-full items-center justify-center">
 						<li>
