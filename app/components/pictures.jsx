@@ -14,14 +14,14 @@ const SkeletonOne = () => {
 	return (
 		<div>
 			<p className="font-bold text-4xl text-white">
-				Réalisation d&apos;une cloture
+				Transformation complète d&apos;une devanture{" "}
 			</p>
 			<p className="font-normal text-base text-white"></p>
 			<p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-				Installation d&apos;une clôture en bois durable et esthétique
-				pour assurer l&apos;intimité et l&apos;intégration harmonieuse
-				dans l&apos;espace paysager. Un projet alliant fonctionnalité et
-				design pour un résultat impeccable.
+				Transformation complète d&apos;une devanture avec un escalier en
+				béton flottant, aux marches suspendues et un mur-gabion. Un
+				aménagement végétal moderne, esthétique et facile
+				d&apos;entretien.
 			</p>
 		</div>
 	);
@@ -81,7 +81,7 @@ const cards = [
 		id: 1,
 		content: <SkeletonOne />,
 		className: "md:col-span-2",
-		thumbnail: "/Pictures/haie.jpg",
+		thumbnail: "/Pictures/aboutUsImg.jpg",
 	},
 	{
 		id: 2,

@@ -30,7 +30,7 @@ export function NavBar() {
 						<li>
 							<NavIcon
 								url="/Pictures/Teams.png"
-								text={"Equipes"}
+								text={"Equipe"}
 								link={"#teams"}
 							/>
 						</li>
