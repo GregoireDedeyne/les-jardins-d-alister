@@ -41,7 +41,7 @@ const content = [
 			"Une fois la conception approuvée, notre équipe de professionnels commence la réalisation de votre projet. De l'installation de terrasses à la pose de gazon, en passant par la création de parterres et de plans d'eau, chaque étape est exécutée avec soin et précision. Nous utilisons des matériaux de haute qualité et des techniques éprouvées pour garantir la durabilité et l'esthétique de votre espace.",
 		content: (
 			<div className="h-full w-full  flex items-center justify-center text-white">
-				<Image
+				<img
 					src="/Pictures/miseEnOeuvre.png"
 					width={500}
 					height={500}
@@ -57,7 +57,7 @@ const content = [
 			"Après l'achèvement des travaux, nous restons à votre disposition pour assurer l'entretien de vos espaces verts. Nos services d'entretien régulier garantissent que votre jardin reste magnifique et bien entretenu tout au long de l'année. Nous sommes également disponibles pour toute question ou ajustement nécessaire après la fin du projet.",
 		content: (
 			<div className="h-full w-full  flex items-center justify-center text-white">
-				<Image
+				<img
 					src="/Pictures/suiviPerso.png"
 					width={500}
 					height={500}

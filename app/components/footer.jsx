@@ -4,8 +4,7 @@ export function Footer() {
 			{" "}
 			<div className="container mx-auto text-center p-10 text-white">
 				{" "}
-				Les jardins d Alister <span> . </span> TVA : BE0740859373{" "}
-				<span> . </span>{" "}
+				Les jardins d Alister <span> . </span> <span> . </span>{" "}
 				<a href="/politique-de-confidentialite">
 					{" "}
 					Politique de confidentialité{" "}

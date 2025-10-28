@@ -58,18 +58,23 @@ export const LayoutGridServices = ({ cards }) => {
 };
 
 const BlurImage = ({ card }) => {
-	const [loaded, setLoaded] = useState(false);
+	const [loaded, setLoaded] = useState(false); // État pour vérifier si l'image est chargée
+
+	const handleLoad = () => {
+		setLoaded(true);
+	};
+
 	return (
-		<Image
-			src={card.thumbnail}
-			height="500"
-			width="500"
-			onLoad={() => setLoaded(true)}
+		<img
+			src={card.thumbnail} // Assurez-vous que card.thumbnail est une URL valide
+			height={500}
+			width={500}
+			alt="thumbnail"
 			className={cn(
 				"object-cover object-top absolute inset-0 h-full w-full transition duration-200",
-				loaded ? "blur-none" : "blur-md"
+				loaded ? "blur-none" : "blur-none" // Applique le flou jusqu'à ce que l'image soit chargée
 			)}
-			alt="thumbnail"
+			onLoad={handleLoad} // Met à jour l'état lorsque l'image est chargée
 		/>
 	);
 };

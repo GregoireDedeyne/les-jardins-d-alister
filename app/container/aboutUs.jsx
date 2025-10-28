@@ -18,7 +18,7 @@ export function AboutUs() {
 
 					<div className="max-w-4/5 z-0  font-cocomat">
 						<p className="mb-5 md:text-xl text-lg">
-							Depuis notre création, Les Jardins d&apos;Alister se
+							Depuis notre création, Les jardins d&apos;Alister se
 							sont imposés comme une référence dans le domaine de
 							l&apos;architecture paysagère.
 						</p>
